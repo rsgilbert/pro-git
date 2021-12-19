@@ -7,7 +7,7 @@ git config -l
 git config --list --show-origin
 
 // Set default editor 
-git config --global core.editor code 
+git config --global core.editor nano 
 
 // Set default branch name 
 git config --global init.defaultBranch main 
@@ -27,7 +27,29 @@ git add -h
 git clone https://github.com/libgit2/libgit2 mylibgit
 
 // Short status 
+// output of short is: 
+// <stage status><workdir status> <filename>
 git add --short 
+
+// Compare working directory with staging area 
+git diff
+ 
+
+// Compare staging area with what was already commited 
+git diff --staged 
+git diff --staged CONTRIBUTING.md 
+// Or
+git diff --cached CONTRIBUTING
+
+// See diff output using external tool 
+git difftool --tool=emerge 
+
+// Get help on difftool tools 
+git difftool --tool-help 
+
+
+
+
 
 
 
