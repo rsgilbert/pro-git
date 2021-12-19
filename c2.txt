@@ -10,6 +10,23 @@ git commit -a -m 'skip'
 // Remove a commited file 
 git rm x.txt 
 
-// Remove only from staging area 
+// Remove only from staging area / index
+// Also makes sure the file wont be tracked by git anymore
 git rm --cached x.txt 
+
+// Forcefully remove a file that has changes in the index (ie has some changes that were staged and not yet committed)
+git rm -f x.txt 
+// Then commit 
+
+// Rename / move file 
+git mv a.ts b.ts 
+
+// The rename can also be done manually like this:
+mv b.ts c.ts 
+git add c.ts 
+git rm b.ts 
+
+
+
+
 
