@@ -1,2 +1,2 @@
 Gilbert Ssenyonjo
-Johnson J
+Johnson Johnson j
