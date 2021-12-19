@@ -5,3 +5,11 @@ git commit -v
 
 // Skip staging area 
 git commit -a -m 'skip'
+
+// Remove 
+// Remove a commited file 
+git rm x.txt 
+
+// Remove only from staging area 
+git rm --cached x.txt 
+
