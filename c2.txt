@@ -2,3 +2,6 @@
 // An editor will be opened for you to type a commit message.
 git commit 
 git commit -v 
+
+// Skip staging area 
+git commit -a -m 'skip'
