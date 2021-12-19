@@ -1,0 +1,4 @@
+// Commit 
+// An editor will be opened for you to type a commit message.
+git commit 
+git commit -v 
