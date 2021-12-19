@@ -1,0 +1,38 @@
+// List git settings 
+git config --list 
+git config -l 
+
+
+// See all git config settings and where they are coming from 
+git config --list --show-origin
+
+// Set default editor 
+git config --global core.editor code 
+
+// Set default branch name 
+git config --global init.defaultBranch main 
+
+// See where a given configuration value was got from 
+git config --show-origin useer.name
+
+// Get help about a command eg add command
+git add help 
+git add --help 
+git help add
+man git-add 
+// Get concise help / refresher 
+git add -h 
+
+// Clone libgit2 repository to a new local folder called mylibgit 
+git clone https://github.com/libgit2/libgit2 mylibgit
+
+// Short status 
+git add --short 
+
+
+
+
+
+
+
+
