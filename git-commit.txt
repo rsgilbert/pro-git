@@ -1,0 +1,15 @@
+// Amend previous commit 
+git commit -m 'read me plz'
+git add README.md 
+git commit --amend 
+
+
+
+
+
+
+
+
+
+
+

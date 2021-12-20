@@ -1,0 +1,42 @@
+// Show difference introduced in each commit 
+// for the last two entries/logs
+git log --patch -2 
+
+// See abbreviated stats for each commit 
+git log --stat 
+
+// See logs in one line per log/commit
+git log --pretty=oneline
+
+// See dates for each commit 
+git log --pretty=fuller 
+
+// Custom-format logs 
+git log --pretty=format:"%h - %an, %ar : %s"
+git log --pretty=format:"%h - %ar : %s"
+
+
+// Limit log output 
+git log --since 2.weeks
+git log --since="1 hour ago"
+git log --since="13 minutes ago"
+git log --since="3 hour" --until="1 hour"
+git log --since="15:28"
+git log --author=rsgilbert 
+git log --grep="calc"
+git log --grep="del"
+git log --grep="add" --grep="remov"
+git log --grep="ad" --grep="ed" --all-match
+// See commits that changed number of occurences of a given string 
+git log -S "console.log"
+// See logs that introduced changes to a given file 
+git log -- ./d.ts 
+// See logs affecting files in a given directory (.)
+git log -- .
+
+
+
+
+
+
+
