@@ -1,0 +1,14 @@
+// Fetch repository from remote
+git fetch origin 
+
+// Get more information about a particular remote 
+git remote show origin  
+
+// Rename remote's shortbranch 
+git remote rename origin ori 
+
+// Add a remote repository 
+git remote add papaya https://papa 
+
+// Remove a remote repository 
+git remote remove papaya

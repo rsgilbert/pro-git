@@ -3,8 +3,21 @@ git commit -m 'read me plz'
 git add README.md 
 git commit --amend 
 
+// Unstage a staged file 
+git reset HEAD calc.ts 
+// Or 
+git restore --staged d.ts 
 
+// Remove staged changes from the index. File 
+// will now match what was committed.
+git restore --staged README.md 
 
+// Now remove changes to the file in working directory. 
+// File will now match what is in the index/staging area.
+git restore README.md
+// Or
+// We can also discard changes in working directory like this:
+git checkout -- README.md 
 
 
 

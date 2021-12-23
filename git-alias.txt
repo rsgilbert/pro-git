@@ -1,0 +1,21 @@
+// To see git globals:
+git config --global --list 
+
+// To create a git alias 
+git config --global alias.br branch
+git config --global alias.co checkout 
+git config --global alias.ci commit 
+git config --global alias.st status
+git config --global alias.short 'status -s'
+git config --global alias.globalconfig 'config --global'
+git globalconfig alias.st status
+git globalconfig alias.last 'log -1 HEAD'
+// Run external command, prefix command with !
+git globalconfig alias.ka '!kate'
+git globalconfig alias.openlog '!git log -1 HEAD | code -'
+
+
+
+
+
+
