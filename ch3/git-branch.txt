@@ -1,0 +1,34 @@
+// see list of branches
+git branch 
+
+// see list of branches merged into current branch
+git branch --merged 
+
+// see list of branches not merged into current branch
+git branch --no-merged 
+
+// changing branch name 
+git branch --move master master2
+
+// see all branches, including the remotes
+git branch --all 
+
+// push a new branch to remote 
+git push --set-upstream origin master2
+
+// delete a branch from remote 
+git push origin --delete master2
+
+// setup a tracking branch 
+git checkout --track origin/master
+
+// see what each branch is tracking as well as other detailed information about each branch
+git branch -vv
+
+
+
+
+
+
+
+
