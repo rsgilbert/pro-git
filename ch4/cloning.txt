@@ -1,0 +1,5 @@
+// ssh
+// scp-like syntax
+git clone github.com:rsgilbert/pro-git.git
+
+
