@@ -1,1 +1,10 @@
 // learning about git rebase
+
+git switch experiment
+git rebase master
+
+With the above two commands, git will 
+reset the experiment branch to point to the last commit 
+on the master branch and then apply the changes (diffs) that were introduced by the 
+experiment branch so that once done, the experiment branch will have all the changes on 
+the master branch followed by the changes introduced by experiment branch
