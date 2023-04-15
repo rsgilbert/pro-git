@@ -22,3 +22,5 @@ console.log(calculate({ command: 'substract', num1: 3, num2: 1 })); // 2
 console.log(calculate({ command: 'multiply', num1: 4, num2: 2 })); // 8
 console.log(calculate({ command: 'divide', num1: 4, num2: 2 })); // 2
 console.log(calculate({ command: 'remainder', num1: 5, num2: 2 })); // 1
+
+console.log('calculated')
