@@ -12,6 +12,7 @@ const calculate = function ({ command, num1, num2 }: CalculateParam): number {
         if (cmd === 'multiply') return num1 * num2;
         if (cmd === 'divide') return num1 / num2;
         if (cmd === 'remainder') return num1 % num2;
+        return 0;
 
 };
 
