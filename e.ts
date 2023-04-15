@@ -7,3 +7,4 @@ let t = {
 console.log(t.ss())
 
 console.log('hi')
+console.log('hi2')
